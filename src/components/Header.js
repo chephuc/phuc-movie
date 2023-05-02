@@ -4,7 +4,7 @@ import styled from 'styled-components'
 function Header() {
   return (
     <Nav>
-        <Logo src='/images/logo.svg'></Logo>
+        <Logo src='/images/Storm-logo.png'></Logo>
         <NavMenu>
             <a>
                 <img src='/images/home-icon.svg'/>
@@ -45,12 +45,13 @@ const Nav = styled.nav`
     display: flex;
     align-items: center;
     padding: 0 36px;
+    overflow-x: hidden;
 
 `
 
 const Logo = styled.img`
 
-    height: 50px;
+    height: 70px;
 
 `
 const NavMenu = styled.div`
