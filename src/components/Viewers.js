@@ -31,6 +31,9 @@ const Container = styled.div`
     grid-gap: 20px;
     padding: 30px 0px 26px;
     grid-template-columns: repeat(5,minmax(0,1fr));
+    @media screen and (max-width: 600px) {
+      grid-template-columns: repeat(3,minmax(0,1fr));
+    }
 `
 
 const Wrap = styled.div`
