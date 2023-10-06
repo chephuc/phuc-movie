@@ -63,6 +63,6 @@ const Content = styled.div`
   grid-gap: 25px;
   grid-template-columns: repeat(7,minmax(0,1fr));
   @media screen and (max-width: 600px) {
-    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-template-columns: repeat(2,minmax(0,1fr));
   }
 `

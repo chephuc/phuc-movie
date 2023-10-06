@@ -19,7 +19,7 @@ function Detail() {
     })
   },[])
 
-  console.log(movies);
+  // console.log(movies);
 
   return (
     <Container>
@@ -74,6 +74,11 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
 
+  @media screen and (max-width: 600px) {
+    display: block;
+    grid-template-columns: none;
+  }
+
   &:before {
     background: url("/images/home-background.png") center center /cover no-repeat fixed;
     content: "";
@@ -104,6 +109,11 @@ const Background = styled.div`
     height: 100%;
   }
 
+  @media screen and (max-width: 600px) {
+    width: 250px;
+    margin-left: -140px;
+  }
+
 `
 
 const Content = styled.div`
@@ -123,6 +133,10 @@ const ImageTitle = styled.div`
 const Control = styled.div`
   display: flex;
   align-items: center;
+
+  @media screen and (max-width: 600px) {
+    display: inline-block;
+  }
 `
 
 const PlayButton = styled.a`
@@ -141,6 +155,13 @@ const PlayButton = styled.a`
 
   &:hover {
     background: rgb(198,198,198);
+  }
+
+  @media screen and (max-width: 600px) {
+    display: inline-block;
+    img {
+      margin-top: 5px;
+    }
   }
 `
 
@@ -166,6 +187,10 @@ const AddButton = styled.button`
   span {
     font-size: 30px;
     color: white;
+  }
+
+  @media screen and (max-width: 600px) {
+    display: none;
   }
 `
 
