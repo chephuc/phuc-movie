@@ -19,6 +19,7 @@ export default popularMovies
 
 const Wrap = styled.div`
 
+    height: 99%;
     border-radius: 10px;
     cursor: pointer;
     overflow: hidden;

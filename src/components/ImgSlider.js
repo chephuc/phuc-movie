@@ -56,6 +56,7 @@ const Carousel = styled(Slider)`
 
 const Wrap = styled.div`
     cursor: pointer;
+
     img{
         border: 2px solid transparent;
         border-radius: 4px;
@@ -70,4 +71,7 @@ const Wrap = styled.div`
         }
     }
 
+    @media screen and (max-width: 600px) {
+        height: 150px;
+    }
 `

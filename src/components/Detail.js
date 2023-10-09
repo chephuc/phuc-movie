@@ -111,7 +111,7 @@ const Background = styled.div`
 
   @media screen and (max-width: 600px) {
     width: 250px;
-    margin-left: -140px;
+    margin-left: -145px;
   }
 
 `
@@ -214,8 +214,9 @@ const Description = styled.div`
   line-height: 1.5;
   font-size: 20px;
   margin-top: 30px;
-  width: 80%;
+  width: 90%;
   color: rgb(249,249,249);
+  margin-bottom: 20px;
 `
 
 const SubItem = styled.a`
